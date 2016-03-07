@@ -29,7 +29,7 @@ public class InsertValues {
             FoneProcess.setFonesArray(foneArray);
             int EmptyField = FoneProcess.retunAmountFieldEmpty();
             
-            JOptionPane.showMessageDialog(null,EmptyField + " espaços vazios" );
+            JOptionPane.showMessageDialog(null,EmptyField + " espaços preenchidos" );
         } catch (NumberFormatException  e) {
             JOptionPane.showMessageDialog(null,"Você não digitou um número");
         }
