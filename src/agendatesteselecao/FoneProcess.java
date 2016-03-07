@@ -1,7 +1,7 @@
-package agendatesteselecao;
 
-import java.util.Arrays;
-import javax.swing.JOptionPane;
+
+
+
 
 class FoneProcess {
     
@@ -44,7 +44,6 @@ class FoneProcess {
                 }
             }
         }
-        //JOptionPane.showMessageDialog(null, Arrays.toString(ValuesArray));
         return SumArray(ValuesArray);
     }
     
